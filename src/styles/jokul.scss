@@ -1,0 +1,10 @@
+@use "@fremtind/jkl-webfonts/webfonts" with (
+	$webfonts-dir: "./fonts"
+);
+@use "@fremtind/jkl-core/core";
+@use "@fremtind/jkl-file-input/file-input";
+@use "@fremtind/jkl-button/button";
+@use "@fremtind/jkl-icon-button/icon-button";
+@use "@fremtind/jkl-icons/icons";
+@use "@fremtind/jkl-input-group/input-group";
+@use "@fremtind/jkl-progress-bar/progress-bar";

@@ -1,0 +1,8 @@
+@use "@fremtind/jkl-core/jkl";
+
+.container {
+	max-width: jkl.rem(860px);
+	margin: 0 auto;
+	height: calc(100vh - var(--jkl-spacing-32));
+	padding: var(--jkl-spacing-32);
+}
